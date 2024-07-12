@@ -60,6 +60,27 @@ input[type="submit"] {
   cursor: pointer;
 }
 
+#book-image{
+  display: block;
+  width: 200px;
+  background: blue;
+  padding: 12px;
+  border-radius: 12px;
+  font-size: 20px;
+  border: 20px;
+  cursor: pointer;
+  margin: auto;
+  color: #fff;
+}
+
+#read{
+  padding-top: 20px;
+}
+
+#input-file{
+  display: none;
+}
+
 input[type="submit"]:hover {
   background-color: #444;
 }
