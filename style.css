@@ -80,7 +80,7 @@ input[type="submit"] {
 img{
   width: 180px;
   height: 150px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   margin-top: 40px;
   margin-bottom: 30px;
 }
@@ -96,7 +96,7 @@ input[type="submit"]:hover {
 .book-card {
   display: inline-block;
   width: 300px;
-  height: 600px;
+  height: 550px;
   margin: 10px;
   padding: 20px;
   border: 1px solid #ccc;
@@ -146,6 +146,13 @@ button {
   background-color: #fff;
   cursor: pointer;
 }
+
+.book-image{
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
   
 button:hover {
   background-color: #333;
@@ -156,19 +163,42 @@ button:hover {
   background-color:rgb(145, 145, 226);
 }
 
+
 .card-header h3{
   font-size: 35px;
   color: #fff;
+  margin-top: 0px;
 }
 
 .card-header h5{
   font-size: 20px;
+  margin-top: 10px;
 }
+
 
 .card-body{
   font-size: 20px;
+  padding-bottom: 100px;
 }
 
 .remove-btn, .toggle-read-btn{
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  form{
+    width: 60%;
+  }
+
+  /* .book-card{
+    width: 50%;
+    height: 60%;
+  } */
+
+  .toggle-read-btn{
+    margin-top: 10px;
+  }
+
+  
 }
