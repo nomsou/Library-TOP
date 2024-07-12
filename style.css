@@ -155,3 +155,20 @@ button:hover {
 .read-status {
   background-color:rgb(145, 145, 226);
 }
+
+.card-header h3{
+  font-size: 35px;
+  color: #fff;
+}
+
+.card-header h5{
+  font-size: 20px;
+}
+
+.card-body{
+  font-size: 20px;
+}
+
+.remove-btn, .toggle-read-btn{
+  margin-bottom: 10px;
+}
